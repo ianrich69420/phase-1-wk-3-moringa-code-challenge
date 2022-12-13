@@ -1,0 +1,26 @@
+{
+    "name": "phase-1-wk-3-moringa-code-challenge",
+    "version": "1.0.0",
+    "description": "Movie Theater Project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "json-server --watch db.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ianrich69420/phase-1-wk-3-moringa-code-challenge.git"
+    },
+    "keywords": [
+      "html",
+      "js",
+      "movie",
+      "theater"
+    ],
+    "author": "Ian Orieko",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/ianrich69420/phase-1-wk-3-moringa-code-challenge/issues"
+    },
+    "homepage": "https://github.com/ianrich69420/phase-1-wk-3-moringa-code-challenge#readme"
+  }
