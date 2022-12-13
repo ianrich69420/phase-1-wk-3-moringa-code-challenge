@@ -8,6 +8,7 @@ function getMovie(movie){
     let body = document.querySelector('body')
     let firstMoviePoster = document.createElement('img')
     firstMoviePoster.src = `${movie[0].poster}`
+    firstMoviePoster.id = `poster`
     let firstMovieTitle = document.createElement('h2')
     firstMovieTitle.textContent = `${movie[0].title}`
     let firstMovieRuntime = document.createElement('p')
@@ -45,6 +46,7 @@ function getMovie(movie){
         let body = document.querySelector('body')
         let moviePoster = document.createElement('img')
         moviePoster.src = `${movie.poster}`
+        moviePoster.id = `poster`
         let movieTitle = document.createElement('li')
         movieTitle.id = `title`
         movieTitle.textContent = `${movie.title}`

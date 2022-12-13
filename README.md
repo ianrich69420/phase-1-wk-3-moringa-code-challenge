@@ -18,6 +18,8 @@ In this project is a website in which a user can:
 
 ## Extra Features
 
+- A user will be able to click on a movie in the menu to replace the currently displayed movie's details with the new movie's details.
+
 ## Project Setup
 
 In order for you to use the content on this repo ensure you have the following:

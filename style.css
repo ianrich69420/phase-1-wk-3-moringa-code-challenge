@@ -1,3 +1,15 @@
+#poster {
+    float: center;
+    height: 200px;
+    width: 200px;
+}
+
 #title {
     cursor: pointer;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#movie-detail {
+    float: right;
 }
