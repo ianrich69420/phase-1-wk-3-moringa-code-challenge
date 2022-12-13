@@ -12,7 +12,7 @@ function getMovie(movie){
     let firstMovieTitle = document.createElement('h2')
     firstMovieTitle.textContent = `${movie[0].title}`
     let firstMovieRuntime = document.createElement('p')
-    firstMovieRuntime.textContent = `Runtime: ${movie[0].runtime}`
+    firstMovieRuntime.textContent = `Runtime: ${movie[0].runtime} minutes`
     let firstMovieShowtime = document.createElement('p')
     firstMovieShowtime.textContent = `Showtime: ${movie[0].showtime}`
     let availableTicketsForFirstMovieCount = movie[0].capacity - movie[0].tickets_sold
@@ -53,7 +53,7 @@ function getMovie(movie){
         let movieTitleDisplay = document.createElement('h2')
         movieTitleDisplay.textContent = `${movie.title}`
         let movieRuntime = document.createElement('p')
-        movieRuntime.textContent = `Runtime: ${movie.runtime}`
+        movieRuntime.textContent = `Runtime: ${movie.runtime} minutes`
         let movieShowtime = document.createElement('p')
         movieShowtime.textContent = `Showtime: ${movie.showtime}`
         let availableTicketCount = movie.capacity - movie.tickets_sold
