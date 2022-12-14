@@ -1,5 +1,5 @@
 function fetchMovies(){
-    return fetch("http://localhost:3000/films")
+    return fetch("https://ianrich69420.github.io/phase-1-wk-3-moringa-code-challenge/db.json")
     .then(res => res.json())
     .then(json => getMovie(json))
 }
